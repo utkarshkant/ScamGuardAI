@@ -22,5 +22,18 @@ conda deactivate
 pip install -r requirements.txt
 ```
 
+### For creating venv using Python
+```
+winget install Python.Python.3.11
+After installation, close and reopen PowerShell, then verify:
+py -3.11 --version
+You should see something like:
+Python 3.11.9
+Then create your environment:
+py -3.11 -m venv scamgaurd
+Activate:
+.\scamgaurd\Scripts\Activate.ps1
+```
+
 ### Installation Guides
 Refer to this playlist: https://www.youtube.com/playlist?list=PLU6QHAXUQhYlalHlpLyF4DH7WLfPvuXV4
