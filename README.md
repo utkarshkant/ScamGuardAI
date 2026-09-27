@@ -10,6 +10,7 @@ git status
 git add . / git add <file_name>
 git commit -m "message"
 git push origin main
+git pull
 ```
 
 ### Environment management
