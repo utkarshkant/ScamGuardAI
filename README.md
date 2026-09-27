@@ -37,3 +37,20 @@ Activate:
 
 ### Installation Guides
 Refer to this playlist: https://www.youtube.com/playlist?list=PLU6QHAXUQhYlalHlpLyF4DH7WLfPvuXV4
+
+## Project Structure
+ScamGuardAI
+- experiments
+    - `workflow.ipynb`
+- llm
+    - `__init__.py`
+- pipeline
+    - `__init__.py`
+- streamlit
+    - `__init__.py`
+- .gitignore
+- LICENSE
+- README.md
+- requirements.txt
+- main.py
+- utils.py
