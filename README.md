@@ -20,3 +20,6 @@ conda activate <env_name>
 conda deactivate
 pip install -r requirements.txt
 ```
+
+### Installation Guides
+Refer to this playlist: https://www.youtube.com/playlist?list=PLU6QHAXUQhYlalHlpLyF4DH7WLfPvuXV4
