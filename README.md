@@ -6,6 +6,7 @@ LLM powered application to detect Scam messages.
 
 ### git commands
 ```
+git clone https://github.com/utkarshkant/ScamGuardAI.git
 git status
 git add . / git add <file_name>
 git commit -m "message"
