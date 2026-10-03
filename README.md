@@ -88,3 +88,5 @@ ScamGuardAI/
     ├── __init__.py
     └── app.py
 ```
+
+Link to Google Form for tomorrow's doubt session: https://forms.gle/b5wm2fdzq36CPwod6
