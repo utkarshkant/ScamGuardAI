@@ -41,6 +41,6 @@ class LLMClient:
 
             except Exception as e:
                 if attempt == self.max_retries:
-                    raise Exception(f"API call failed after {attempt + 1} attempts: {str{e}}")
+                    raise Exception(f"API call failed after {attempt + 1} attempts: {e}")
 
                 time.sleep(self.retry_delay*(2**attempt))

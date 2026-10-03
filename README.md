@@ -57,8 +57,8 @@ ScamGuardAI
 
 
 ## Steps Involved in Pipeline
-1. Load and configuration setup
-2. LLM Client setup
+1. Load and configuration setup - DONE
+2. LLM Client setup - DONE
 3. Prompt template - building the prompt - DONE
 4. Handling input - DONE
 5. Generate LLM response - DONE

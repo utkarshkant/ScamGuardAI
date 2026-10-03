@@ -14,5 +14,6 @@ def generate_prompt(user_input: str) -> str:
     """
     Generate a prompt for scam detection
     """
-    template = PROMPT
+    # template = PROMPT
+    template = load_prompt("react.md")
     return f"{template}\n\nUser Message:\n{user_input.strip()}"
