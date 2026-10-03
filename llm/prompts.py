@@ -16,7 +16,4 @@ def generate_prompt(user_input: str) -> str:
     """
     # template = PROMPT
     template = load_prompt("react.md")
-    print("*"*50)
-    print(f"{template}\n\nUser Message:\n{user_input.strip()}")
-    print("*"*50)
     return f"{template}\n\nUser Message:\n{user_input.strip()}"
