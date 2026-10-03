@@ -34,33 +34,56 @@ py -3.11 -m venv scamgaurd
 Activate:
 .\scamgaurd\Scripts\Activate.ps1
 ```
+### Setup the Environment variables
+- Update the `.env-template` file to `.env` file
+- Add your `GEMINI_API_KEY`
+
+### Run the app
+Activate the virtual environment, then the run the app with the following command.
+```
+python main.py
+```
+
+To run the UI, activate the virtual environment, and run the below command.
+```
+streamlit run streamlit\app.py
+```
 
 ### Installation Guides
 Refer to this playlist: https://www.youtube.com/playlist?list=PLU6QHAXUQhYlalHlpLyF4DH7WLfPvuXV4
 
 ## Project Structure
-ScamGuardAI
-- experiments
-    - `workflow.ipynb`
-- llm
-    - `__init__.py`
-- pipeline
-    - `__init__.py`
-- streamlit
-    - `__init__.py`
-- .gitignore
-- LICENSE
-- README.md
-- requirements.txt
-- main.py
-- utils.py
 
-
-## Steps Involved in Pipeline
-1. Load and configuration setup - DONE
-2. LLM Client setup - DONE
-3. Prompt template - building the prompt - DONE
-4. Handling input - DONE
-5. Generate LLM response - DONE
-6. Parse output - DONE
-7. Showcase output on UI
+```text
+ScamGuardAI/
+├── .env
+├── .env-template
+├── .gitignore
+├── LICENSE
+├── README.md
+├── requirements.txt
+├── __init__.py
+├── config.py
+├── main.py
+├── utils.py
+├── experiments/
+│   └── workflow.ipynb
+├── llm/
+│   ├── __init__.py
+│   ├── client.py
+│   ├── prompts.py
+│   └── prompt_library/
+│       ├── __init__.py
+│       └── react.md
+├── pipeline/
+│   ├── __init__.py
+│   └── scam_detector/
+│       ├── __init__.py
+│       ├── builder.py
+│       ├── detector.py
+│       ├── executor.py
+│       └── parser.py
+└── streamlit/
+    ├── __init__.py
+    └── app.py
+```
