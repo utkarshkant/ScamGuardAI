@@ -54,3 +54,13 @@ ScamGuardAI
 - requirements.txt
 - main.py
 - utils.py
+
+
+## Steps Involved in Pipeline
+1. Load and configuration setup
+2. LLM Client setup
+3. Prompt template - building the prompt - DONE
+4. Handling input - DONE
+5. Generate LLM response - DONE
+6. Parse output - DONE
+7. Showcase output on UI
