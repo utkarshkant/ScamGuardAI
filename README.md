@@ -48,6 +48,7 @@ To run the UI, activate the virtual environment, and run the below command.
 ```
 streamlit run streamlit\app.py
 ```
+To close the streamlit session, command `CTRL + C` in your terminal
 
 ### Installation Guides
 Refer to this playlist: https://www.youtube.com/playlist?list=PLU6QHAXUQhYlalHlpLyF4DH7WLfPvuXV4
