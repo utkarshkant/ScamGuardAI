@@ -25,6 +25,3 @@ Follow this exact structured reasoning format for each User Message:
 - Emotional manipulation tactics
 
 Be cautious when unsure. Do not make up details beyond the input.
-
-User Message:
-{}
